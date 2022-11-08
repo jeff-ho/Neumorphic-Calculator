@@ -1,32 +1,33 @@
-import './App.css';
-import { useState } from 'react'
+import "./App.css";
+import { useState } from "react";
 
 function App() {
-  const [counter, setCounter] = useState(0)
-  const [formValue, setFormValue] = useState("")
-  
-
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log(formValue)
-  }
-
   return (
-    <div className="App">
-      <div className='counter'>{counter}</div>
-      <button onClick={() => setCounter(counter + 1)}>Counter</button>
-      <button onClick={() => setCounter(0)}>Reset</button>
-
-      <form onSubmit={handleSubmit}>
-        <label>Form Value</label>
-        <input 
-        type="text" 
-        value={formValue}
-        onChange={(e) => setFormValue(e.target.value)}
-        ></input>
-        <button type="submit">Submit</button>
-      </form>
-    
+    <div className='container'>
+      <div className="calculator-grid">
+        <div className="output">
+          <div className="previous-operand"></div>
+          <div className="current-operand"></div>
+        </div>
+        <button className="span-two">AC</button>
+        <button>DEL</button>
+        <button>%</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>*</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>+</button>
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>-</button>
+        <button>.</button>
+        <button>0</button>
+        <button className="span-two">=</button>
+      </div>
     </div>
   );
 }
