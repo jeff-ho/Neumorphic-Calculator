@@ -1,6 +1,6 @@
 # Neumorphic Calculator
 
-Neumorphic calculator is a simple React calculator application with a neumorphic theme. The application uses useReducer hook for its complex state management.
+Neumorphic calculator is a simple React calculator application with a neumorphic theme. The application uses useReducer hook instead of useState for its main state management.
 
 
 ## Result
