@@ -10,10 +10,14 @@ Neumorphic calculator is a simple React calculator application with a neumorphic
 <img width="1467" alt="Screen Shot 2022-11-09 at 4 25 33 PM" src="https://user-images.githubusercontent.com/55267263/200945307-7f468bd9-e3ba-41c3-b258-81d5eb98547f.png">
 
 
+https://user-images.githubusercontent.com/55267263/200946107-8170eb22-7341-4d8a-aa13-4c041c8a8a19.mov
+
+
+
 ## Getting Started
 
 1. Fork the repository and git clone onto your local device.
-2. -Run the web application using the following command:
+2. Run the web application using the following command:
 
 ``` js
 npm start
